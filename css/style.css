@@ -3,6 +3,7 @@
 	--s: #D52B1E;
 	--t: #0033A0;
 	--d: #FFD700;
+	
 }
 
 body{
@@ -54,5 +55,47 @@ p {
 .btn-primary:hover {
 	background-color: var(--s);
 	color: white;
+}
+
+#grupos {
+	background-color: var(--p);
+	padding: 60px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilizando os boxes dos grupos */
+.grupo-box {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.grupo-box:hover {
+	transform: scale(1.05);
+}
+
+.grupo-box h3 {
+	background: linear-gradient(90deg, #D52B1E, #0033A0);
+	color: white;
+	padding: 10px;
+	border-radius: 8px 8px 0 0;
+	font-size: 1.5rem;
+}
+
+.grupo-box ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.grupo-box ul li {
+	padding: 10px;
+	font-size: 1.2rem;
+	color: #2B2D42;
+	font-weight: bold;
 }
 
