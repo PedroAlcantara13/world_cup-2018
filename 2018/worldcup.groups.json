@@ -1,0 +1,205 @@
+{
+  "name": "World Cup 2018",
+  "groups": [
+    {
+      "name": "Group A",
+      "teams": [
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "fi": "fi fi-eg"
+        },
+        {
+          "name": "Russia",
+          "code": "RUS",
+          "fi": "fi fi-ru"
+        },
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "fi": "fi fi-sa"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "fi": "fi fi-uy"
+        }
+      ]
+    },
+    {
+      "name": "Group B",
+      "teams": [
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "fi": "fi fi-ma"
+        },
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "fi": "fi fi-es"
+        },
+        {
+          "name": "Portugal",
+          "code": "POR",
+          "fi": "fi fi-pt"
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "fi": "fi fi-ir"
+        }
+      ]
+    },
+    {
+      "name": "Group C",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "fi": "fi fi-fr"
+        },
+        {
+          "name": "Denmark",
+          "code": "DEN",
+          "fi": "fi fi-dk"
+        },
+        {
+          "name": "Australia",
+          "code": "AUS",
+          "fi": "fi fi-hm"
+        },
+        {
+          "name": "Peru",
+          "code": "PER",
+          "fi": "fi fi-pe"
+        }
+      ]
+    },
+    {
+      "name": "Group D",
+      "teams": [
+        {
+          "name": "Nigeria",
+          "code": "NGA",
+          "fi": "fi fi-ng"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "fi": "fi fi-hr"
+        },
+        {
+          "name": "Iceland",
+          "code": "ISL",
+          "fi": "fi fi-is"
+        },
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "fi": "fi fi-ar"
+        }
+      ]
+    },
+    {
+      "name": "Group E",
+      "teams": [
+        {
+          "name": "Costa Rica",
+          "code": "CRC",
+          "fi": "fi fi-cr"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "fi": "fi fi-ch"
+        },
+        {
+          "name": "Serbia",
+          "code": "SRB",
+          "fi": "fi fi-rs"
+        },
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "fi": "fi fi-br"
+        }
+      ]
+    },
+    {
+      "name": "Group F",
+      "teams": [
+        {
+          "name": "South Korea",
+          "code": "KOR",
+          "fi": "fi fi-kr"
+        },
+        {
+          "name": "Germany",
+          "code": "GER",
+          "fi": "fi fi-de"
+        },
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "fi": "fi fi-se"
+        },
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "fi": "fi fi-mx"
+        }
+      ]
+    },
+    {
+      "name": "Group G",
+      "teams": [
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "fi": "fi fi-tn"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "fi": "fi fi-pa"
+        },
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "fi": "fi fi-be"
+        },
+        {
+          "name": "England",
+          "code": "ENG",
+          "fi": "fi fi-eng"
+        }
+      ]
+    },
+    {
+      "name": "Group H",
+      "teams": [
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "fi": "fi fi-sn"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "fi": "fi fi-jp"
+        },
+        {
+          "name": "Poland",
+          "code": "POL",
+          "fi": "fi fi-pl"
+        },
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "fi": "fi fi-co"
+        }
+      ]
+    }
+  ]
+}

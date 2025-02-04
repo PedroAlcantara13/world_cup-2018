@@ -99,3 +99,63 @@ p {
 	font-weight: bold;
 }
 
+/* Seção de partidas */
+#partidas {
+	background-color: #f8f9fa;
+	padding: 60px 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Rodadas */
+.rodada {
+	margin-bottom: 40px;
+}
+
+.rodada h3 {
+	text-align: center;
+	background: #0033A0;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+/* Cards de partidas */
+.match-card {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+}
+
+.match-card:hover {
+	transform: scale(1.05);
+}
+
+.match-date {
+	font-size: 1rem;
+	color: #555;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.match-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 10px;
+	background: #FFD700;
+	border-radius: 5px;
+	color: #222;
+}
+
+.match-info.final-match {
+	background: #D52B1E;
+	color: white;
+}
+
