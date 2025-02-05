@@ -19,6 +19,18 @@ p {
     font-weight: 300;
 }
 
+.inicio{
+	position: relative;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	object-position: center;
+}
+
 .navbar {
 	background-color: var(--s); 
 }
