@@ -110,7 +110,66 @@ async function chamarApi1() {
 
 chamarApi1();
 
+//json-server --watch 2018/worldcup.standings.json --port 3002
+const url2 = 'http://localhost:3002/groups';
+const grupos2 = document.getElementById('classi');
+async function chamarApi2(){
+    const resp2 = await fetch(url2);
+    if(resp2.status === 200){
+        const obj2 = await resp2.json();
+        console.log(obj2[1]);
+        for(cont = 0; cont < 8; cont++){
+        grupos2.innerHTML += `
+        <table class="group-table">
+            <thead>
+                <tr>
+                    <th id="destaque" class="text-center" colspan="5">${obj2[cont].name}</th>
+                </tr>
+                <tr>
+                    <th>Pos</th>
+                    <th>Seleção</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>L</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>${obj2[cont].standings[0].team.name}</td>
+                    <td>${obj2[cont].standings[0].pts}</td>
+                    <td>${obj2[cont].standings[0].won}</td>
+                    <td>${obj2[cont].standings[0].lost}</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>${obj2[cont].standings[1].team.name}</td>
+                    <td>${obj2[cont].standings[1].pts}</td>
+                    <td>${obj2[cont].standings[1].won}</td>
+                    <td>${obj2[cont].standings[1].lost}</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>${obj2[cont].standings[2].team.name}</td>
+                    <td>${obj2[cont].standings[2].pts}</td>
+                    <td>${obj2[cont].standings[2].won}</td>
+                    <td>${obj2[cont].standings[2].lost}</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>${obj2[cont].standings[3].team.name}</td>
+                    <td>${obj2[cont].standings[3].pts}</td>
+                    <td>${obj2[cont].standings[3].won}</td>
+                    <td>${obj2[cont].standings[3].lost}</td>
+                </tr>
+            </tbody>
+        </table>
+        `
+        }
+    }
+}
 
+chamarApi2();
 
 
 
