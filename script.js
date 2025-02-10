@@ -1,4 +1,4 @@
-//json-server --watch 2018/worldcup.groups.json --port 3000
+//json-server --watch 2018/db.json --port 3000
 const url = 'http://localhost:3000/groups';
 const grupos = document.getElementById('group');
 async function chamarApi(){
@@ -26,7 +26,6 @@ async function chamarApi(){
 
 chamarApi();
 
-//json-server --watch 2018/worldcup.json --port 3001
 const url1 = 'http://localhost:3000/rounds';
 const rodadas = document.getElementById('rodadas');
 
@@ -110,7 +109,7 @@ async function chamarApi1() {
 
 chamarApi1();
 
-//json-server --watch 2018/worldcup.standings.json --port 3002
+
 const url2 = 'http://localhost:3000/table';
 const grupos2 = document.getElementById('classi');
 async function chamarApi2(){
